@@ -8,6 +8,9 @@
 
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pinyon+Script&display=swap" rel="stylesheet"> 
+   
+    <link rel="stylesheet" href="bootstrap">
     <link rel="stylesheet" href="css/style.css">
     
     <script src="./index.js" ></script>
@@ -15,22 +18,32 @@
   </head>
 <body>
 <header> 
-        <nav>
+        
           <div class="containernav">
+            <nav>
                 <ul>
                     <li><a href="#">Home</li>
                     <li><a href="#">Information</li>
                     <li><a href="#">Numbers</li>
                     <li><a href="#">Location</li>
                 </ul>
-              </div>
                 </nav>
+              </div>
+                
 
 <div id="header">
  
  <img id="headerimg" alt="party cocktails" src="https://zone1-ibizaspotlightsl.netdna-ssl.com/sites/default/files/styles/embedded_auto_740_width/public/article-images/129145/embedded-1503645750_0.jpg"  >
-        <div id="buttonleft"> Left </div>       
-        <div id="buttonright">  Right </div>
+        
+   <div id="tekstheader">
+        <h3>You are invited to</h3>
+        <h1>The ultimate cocktailparty</h1>
+        <h2> @The Beacon, 22 August 2019</h2>
+       
+      </div>
+
+        <div id="buttonleft"> &#9756; </div>       
+        <div id="buttonright">  &#9758; </div>
 
 </div>
   
@@ -86,7 +99,19 @@
 </section>
 
 <div id="timer">
-  <h3>Timer Till Event!</h3>
+  
+   <div id="timetoplay">
+      <h3>Timer Till Event!</h3>
+      <span id="timetoparty"></span>  
+      <img class="partyimg"  src="img/iconparty.svg" alt="iconparty" width="80px" height="80px">
+    </div> 
+
+    <div id="counter">
+        <h3>Counter</h3>
+        <span id="counttoparty"></span>  
+        <img class="partyimg"  src="img/" alt="iconparty">
+
+    </div>
 
 </div> 
 
@@ -108,7 +133,6 @@
     <p>Posted by: Panadda, Alaa and Nicole</p>
     <p>Contact information: cocktailparty@yahoo.com</p>
 </footer>
-
 
     
 </body>

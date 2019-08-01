@@ -1,21 +1,49 @@
-nav ul li {
+
+nav  ul li {
     display: inline-block;
     list-style-type: none;
     padding: 10px;
-    float: center;
-    
     background-color: orangered;
-    } 
+}
+
+
+
+
+ .containernav {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: fixed;
+    margin: 10px;
+    width: auto;
+    z-index:10;
+    text-transform: uppercase;
+
+}
+
+
+
+li a {
+    color: white;
+}
 a {
     text-decoration: none;
-    font-weight; bold;
-    
+    font-weight: bold;
+
 }
 .containernav {
     color: white;
+    width: 100%;
+    text-align: center;
+    
+    
 }
-
-
+/*
 .containernav{
     font-family: 'Source Sans Pro', sans-serif;
     position: fixed;
@@ -24,6 +52,7 @@ a {
     z-index:10;
     text-transform: uppercase;
 }   
+*/
 
 
 .tabs {
@@ -32,43 +61,109 @@ a {
 }
     
 
+.tabcontent {
+min-height: 75vh;
+
+}
+
+#summary{
+display: block; 
+}
+
+#information {
+display: none;
+}
+
+#contact {
+    display:none;
+}
+
 a.tabs:link {
     background-color: pink;
 }
-
+#header {
+position: relative;
+width: 100%;
+height: 350px;
+}
 
 #headerimg {
 width: 100%;
 height: 350px;
 background-size: cover;
-position: relative;
+
 z-index:7
 
 }
 
+ #tekstheader {
+
+    position: absolute;
+    left: 10;
+    top: 30%;
+    width: 50%;
+    color: orangered;
+    padding: 0px;
+    margin-left: 25%;
+    z-index: 11;
+    font-size: 15px;
+    text-align: center;
+}
+
+h3 {
+font-family: 'Pinyon Script', cursive;
+font-size: 30px;
+margin: 0px;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+    font-size: 50px; 
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+}
+
+
+
+
 
 #buttonleft {
-position: left;
+position: absolute;
 left: 0;
-float: left;
-background-color: goldenrod;
+top: 50%;
+color: orangered;
 padding: 15px;
 margin: 10px;
+z-index: 11;
+font-size: 50px;
 }
 
 #buttonright {
-    position: right;
+    position: absolute;
     right: 0;
-    float: right;
-    background-color: goldenrod;
+    top: 50%;
+    color: orangered;
     padding: 15px;
     margin: 10px;
-
+    z-index: 11;
+    font-size: 50px;
     }
 #timer {
     border: 2px solid purple;
 
 }
+
+
+.partyimg {
+   width: 80px;
+   height: 80px;
+  
+ }
+
 
 footer {
     border: 2px solid purple;
